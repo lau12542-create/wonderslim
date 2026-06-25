@@ -10,21 +10,19 @@
   	overflow-y: auto;
     }
   .background-layer {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100vw;
-      height: 100vh;
-      z-index: -1;
-      overflow: hidden;
-    }
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 0;
+}
 
-    .background-layer img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      opacity: 0.4;
-    }
+.background-layer img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 	
 	.overlay {
   	position: fixed;
@@ -138,10 +136,14 @@
 
 <body>
 	<div class="background-layer">
-    <img src="wonderslimlogo.jpeg" alt="background" />
+    <img src="https://lau12542-create.github.io/wonderslim/wonderslim/wonderslimlogo.jpeg" alt="background" />
+		
   </div>
-	
 </body>
 </html>
+
+
+
+
 
 
